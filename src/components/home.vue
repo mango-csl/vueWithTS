@@ -6,21 +6,13 @@
 </template>
 
 <script lang="ts">
-  // export default {
-  //   name: 'HelloWorld',
-  //   data () {
-  //     return {
-  //       msg: 'Welcome to Your Vue.js App'
-  //     }
-  //   }
-  // }
-  import Vue from 'vue'
-  import Component from 'vue-class-component'
+import Vue from 'vue';
+import Component from 'vue-class-component';
 
-  @Component
-  export default class home extends Vue {
-    msg = 'this is a typescript project now535345'
-  }
+@Component
+export default class home extends Vue {
+  msg = 'this is a typescript project now535345'
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
